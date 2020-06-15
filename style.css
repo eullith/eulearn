@@ -1,0 +1,58 @@
+:root{
+    --dark: #0a0a0a;
+    --yellow: #fffb00;
+    --light: #ffffff;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--light);
+}
+
+.navbar {
+    min-height: 6rem
+}
+
+.bg-light { background-color: var(--light) !important; }
+.bg-yellow { background-color: var(--yellow) !important; }
+.bg-dark { background-color: var(--dark) !important; }
+
+.text-dark {color: var(--dark) !important;}
+
+.text-yellow {color: var(--yellow) !important; }
+
+.py-6 { 
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
+
+.mb-3{
+    padding-bottom: 1rem;
+    padding-left: .25rem;
+    padding-right: .25rem;
+}
+
+.member-info {
+    bottom: 2rem;
+    left: 2rem;
+}
+
+.btn-yellow {
+    background-color: var(--yellow);
+}
+.font-weight-thick {
+    font-family: 'Spartan', sans-serif ; 
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.position-bottom {
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.p-top {
+    padding-top: 1rem;
+}
