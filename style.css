@@ -65,14 +65,15 @@ body {
 .p-top {
     padding-top: 1rem;
 }
+
+.p-topp {
+    padding-top: 2rem;
+}
+
 .p-left {
-    padding-left: 4rem;
+    padding-left: 10rem;
 }
 .right-to-left li {
     float: right !important;
   }
 
-#container{width:100%;}
-#left{float:left;width:100px;}
-#right{float:right;width:100px;}
-#center{margin:0 auto;width:100px;}
