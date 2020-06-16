@@ -56,3 +56,10 @@ body {
 .p-top {
     padding-top: 1rem;
 }
+.p-left {
+    padding-left: 4rem;
+}
+.right-to-left li {
+    float: right !important;
+  }
+
