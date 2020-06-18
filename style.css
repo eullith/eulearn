@@ -79,6 +79,10 @@ body {
     padding-left: 10rem;
 }
 
+.p-leftcard {
+    padding-left: 1rem;
+}
+
 .p-card {
     padding-left: 0rem;
 }
