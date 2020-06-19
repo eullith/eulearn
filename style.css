@@ -98,7 +98,7 @@ body {
   }
 
  .card-l {
-     border: noen;
+     border: none;
  }
 
  .p-close {
@@ -110,4 +110,11 @@ body {
  .p-modal {
      padding-left: 3rem;
      padding-right: 3rem;
+ }
+
+ .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
  }
