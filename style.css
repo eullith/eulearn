@@ -97,6 +97,10 @@ body {
     float: right !important;
   }
 
+  .p-left {
+      padding-left: 1rem;
+  }
+  
  .card-l {
      border: none;
  }
