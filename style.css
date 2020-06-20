@@ -102,8 +102,8 @@ body {
     float: right !important;
   }
 
-  .p-left {
-      padding-left: 1rem;
+  .p-leftt {
+      padding-left: 8rem;
   }
 
  .card-l {
@@ -131,4 +131,13 @@ body {
  .contact-us {
      padding-top: 7rem;
      padding-bottom: 7rem;
+ }
+
+ .p-lft {
+     padding-left: 1rem;
+ }
+
+ .p-right
+ {
+     padding-left: 5rem;
  }
