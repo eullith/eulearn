@@ -87,12 +87,17 @@ body {
     padding-left: 1rem;
 }
 
+.p-btm {
+    padding-bottom: 7rem;
+}
+
 .p-modalb {
     padding-bottom: 2rem;
 }
 .p-card {
     padding-left: 0rem;
 }
+
 .right-to-left li {
     float: right !important;
   }
@@ -100,7 +105,7 @@ body {
   .p-left {
       padding-left: 1rem;
   }
-  
+
  .card-l {
      border: none;
  }
@@ -121,4 +126,9 @@ body {
     right: 0;
     left: 0;
     z-index: 999;
+ }
+
+ .contact-us {
+     padding-top: 7rem;
+     padding-bottom: 7rem;
  }
