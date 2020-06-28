@@ -1,6 +1,6 @@
 :root{
     --dark: #0a0a0a;
-    --yellow: #ffff00;
+    --yellow: #ffea00;
     --light: #ffffff;
 }
 
@@ -113,11 +113,9 @@ body {
      border: none;
  }
 
- .
  .p-close {
      padding-top: 1rem;
      padding-right: 1rem;
-     padding-bottom: 0rem;
  }
 
  .p-modal {
