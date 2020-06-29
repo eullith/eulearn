@@ -67,13 +67,15 @@
     <div class="container">
       <div class="card-deck">
         <div class="card">
-          <img class="card-img-top" src="Website setup-pana.png" alt="Card image cap">
+          <img class="card-img-top" src="bootstrap4.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title font-weight-bold">Crea una Página Web Moderna con Bootstrap 4</h5>
             <p class="card-text">Aprende a crear una atractiva página web, 100% responsiva.</p>
           </div>
           <div class="card-footer p-modalb border-light bg-light">
-            <a href="sitio-web.html" class="font-weight-bold btn btn-block btn-yellow">Ir al curso</a>
+            <button type="button" class="font-weight-bold btn btn-block btn-yellow" data-toggle="modal"
+              data-target="#bootstrap">
+              Ir al curso</button>
           </div>
         </div>
         <div class="card">
@@ -88,16 +90,249 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="Designer-pana.png" alt="Card image cap">
+          <img class="card-img-top" src="adobe-Illustrator-logo-3.png" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title font-weight-bold">Creación de contenido digital</h5>
+            <h5 class="card-title font-weight-bold">Adobe Illustrator Básico</h5>
             <p class="card-text">Curso completo de Adobe Illustrator .</p>
           </div>
           <div class="card-footer p-modalb border-light bg-light">
-            <a href="contenido-digital.html" class="font-weight-bold btn btn-block btn-yellow">Ir al curso</a>
+            <button type="button" class="font-weight-bold btn btn-block btn-yellow" data-toggle="modal"
+              data-target="#adobe">
+              Ir al curso</button>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="modal fade" id="bootstrap" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="bootstrap">Crea una Página Web Moderna con Bootstrap 4</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="py-4 bg-light">
+              <div class="container">
+                <div class="card-deck">
+                  <div class="card border-0">
+                    <img class="card-img-top" src="bootstrap-4.jpg" alt="Card image cap">
+                  </div>
+                  <div class="p-leftcard position-bottom p-topp card border-0 d-flex">
+                    <nav>
+                      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active font-weight-bold" id="nav-home-tab" data-toggle="tab"
+                          href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</a>
+                        <a class="nav-item nav-link font-weight-bold" id="nav-profile-tab" data-toggle="tab"
+                          href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Lo que
+                          aprenderás</a>
+                        <a class="nav-item nav-link font-weight-bold" id="nav-contact-tab" data-toggle="tab"
+                          href="#nav-contact" role="tab" aria-controls="nav-contact"
+                          aria-selected="false">Requerimientos</a>
+                      </div>
+                    </nav>
+
+                    <div class="tab-content" id="nav-tabContent">
+
+                      <!--Primera seccion, INTRODUCCION-->
+                      <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                        aria-labelledby="nav-home-tab">
+                        <div class="accordion padding-0" id="accordion1">
+
+                          <div class="card border-0">
+                            <div class="card-header bg-light p-card" id="headingOneOne">
+                              <h6 class="p-top bg-light text-justify">Este curso está impartido por Diego Velazquez
+                                Front End Developer & UI / UX Designer. Pueden visitar su portafolio en instagram,
+                                dribbble, behance buscándolo como diegovr7.
+                                <h6 class="text-justify"> En este sencillo tutorial aprenderás a crear una increíble
+                                  página web desde 0 utilizando Bootrstrap 4, es un Framework de CSS que nos permite
+                                  crear
+                                  páginas
+                                  web rápidamente y que sean 100% responsivas. También utilizaremos un CDN de Ionic
+                                  Icons
+                                  y
+                                  Google
+                                  Fonts para mejorar la apariencia de nuestra página.</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--Segunda seccion, Sintomas-->
+                      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="accordion" id="accordion2">
+                          <div class="card border-0">
+                            <div class="card-header bg-light p-card" id="headingOneOne">
+                              <p class="p-top">
+                                <ion-icon name="arrow-forward-sharp"></ion-icon> Crear páginas web modernas y
+                                responsivas
+                              </p>
+                              <p>
+                                <ion-icon name="arrow-forward-sharp"></ion-icon> Aprender Bootstrap 4
+                              </p>
+                              <p>
+                                <ion-icon name="arrow-forward-sharp"></ion-icon> Diseñar páginas web modernas
+                              </p>
+                              <p>
+                                <ion-icon name="arrow-forward-sharp"></ion-icon> Diseñar páginas web con Html y Css
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--Tercera seccion, Factores de riesgo-->
+                      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <div class="accordion padding-0" id="accordion3">
+
+                          <div class="card border-0">
+                            <div class="card-header bg-light p-card" id="headingOneOne">
+                              <p class="p-top">
+                                <ion-icon name="arrow-forward-sharp"></ion-icon>
+                                Conocimiento básico de html
+                              </p>
+                              <p>
+                                <ion-icon name="arrow-forward-sharp"></ion-icon>
+                                Conocimiento básico de css
+                              </p>
+                              <p>
+                                <ion-icon name="arrow-forward-sharp"></ion-icon>
+                                Un editor de texto
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer border-light bg-light">
+                      <h5 class="text-center">Precio $5.99</h5>
+                      <a href="https://api.whatsapp.com/send?phone=50558331726&text=Hola.%20Deseo%20inscribirme%20en%20el%20curso%20Crea%20una%20P%C3%A1gina%20Web%20Moderna%20con%20Bootstrap%204%20de%20euLearn."
+                        class="btn btn-block btn-yellow">Inscríbete ahora</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="modal fade" id="adobe" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog"
+      aria-labelledby="adobe" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="adobe">Crea una Página Web Moderna con Bootstrap 4</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="py-4 bg-light">
+              <div class="container">
+                <div class="card-deck">
+                  <div class="card border-0">
+                    <img class="card-img-top" src="Illustrator-Splah-Screen-COVER-v2-1800x0-c-default.png" alt="Card image cap">
+                  </div>
+                  <div class="p-leftcard position-bottom p-topp card border-0 d-flex">
+                    <nav>
+                      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active font-weight-bold" id="nav-home-tab1" data-toggle="tab"
+                          href="#nav-home1" role="tab" aria-controls="nav-home" aria-selected="true">Descripción</a>
+                        <a class="nav-item nav-link font-weight-bold" id="nav-profile-tab1" data-toggle="tab"
+                          href="#nav-profile1" role="tab" aria-controls="nav-profile1" aria-selected="false">Lo que
+                          aprenderás</a>
+                        <a class="nav-item nav-link font-weight-bold" id="nav-contact-tab1" data-toggle="tab"
+                          href="#nav-contact1" role="tab" aria-controls="nav-contact"
+                          aria-selected="false">Requerimientos</a>
+                      </div>
+                    </nav>
+
+                    <div class="tab-content" id="nav-tabContent1">
+
+                      <!--Primera seccion, INTRODUCCION-->
+                      <div class="tab-pane fade show active" id="nav-home1" role="tabpanel"
+                        aria-labelledby="nav-home-tab">
+                        <div class="accordion padding-0" id="accordion1">
+
+                          <div class="card border-0">
+                            <div class="card-header bg-light p-card" id="headingOneOne">
+                              <h6 class="p-top bg-light text-justify"> Este curso está
+                                especialmente preparado para cualquier persona
+                                interesada en el campo del diseño y la creatividad. Sea cual sea su nivel
+                                principiante o profesional. Al final de este curso, podrá convertir
+                                cualquier
+                                idea en un diseño exitoso, y aprenderá muchas habilidades, secretos y
+                                abreviaturas, asimismo tendrá la oportunidad de ingresar al
+                                mercado de trabajo de diseñadores.</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--Segunda seccion, Sintomas-->
+                      <div class="tab-pane fade" id="nav-profile1" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="accordion" id="accordion2">
+                          <div class="card border-0">
+                            <div class="card-header bg-light p-card" id="headingOneOne">
+                              <p class="p-top">
+                                <ion-icon name="arrow-forward-sharp"></ion-icon> Diseño de logos
+                              </p>
+                              <p>
+                                <ion-icon name="arrow-forward-sharp"></ion-icon> Convertir fotografías en ilustraciones
+                              </p>
+                              <p>
+                                <ion-icon name="arrow-forward-sharp"></ion-icon> Exporte sus proyectos para impresión,
+                                web u otros
+                              </p>
+                              <p>
+                                <ion-icon name="arrow-forward-sharp"></ion-icon> Diseño de carteles
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--Tercera seccion, Factores de riesgo-->
+                      <div class="tab-pane fade" id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <div class="accordion padding-0" id="accordion3">
+
+                          <div class="card border-0">
+                            <div class="card-header bg-light p-card" id="headingOneOne">
+                              <p class="p-top">
+                                <ion-icon name="arrow-forward-sharp"></ion-icon>
+                                Cualquier versión de Adobe Illustrator.
+                              </p>
+                              <p>
+                                <ion-icon name="arrow-forward-sharp"></ion-icon>
+                                No se necesita tener previo conocimiento.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer border-light bg-light">
+                      <h5 class="text-center">Precio $7.99</h5>
+                      <a href="https://api.whatsapp.com/send?phone=50558331726&text=Hola.%20Deseo%20inscribirme%20en%20el%20curso%20Crea%20una%20P%C3%A1gina%20Web%20Moderna%20con%20Bootstrap%204%20de%20euLearn."
+                        class="btn btn-block btn-yellow">Inscríbete ahora</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section>
@@ -139,62 +374,63 @@
         </div>
   </section>
 
-<section class="bg-yellow contact-us">
-  <div class="container">
-    <div class="text-center">
-      <h2 class="font-weight-thick mb-0"> Es hora de empezar tu negocio</h2>
-      <p class="lead p-top font-weight-medium">No pierdas la oportunidad de posicionar tu marca</p>
-      <a href="https://api.whatsapp.com/send?phone=50558331726&text=Hola%20Elisha.%20Estoy%20listo%20para%20posicionar%20mi%20marca."
-        class="btn btn-self-center font-weight-bold btn-dark">Contáctanos</a>
+  <section class="bg-yellow contact-us">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="font-weight-thick mb-0"> Es hora de empezar tu negocio</h2>
+        <p class="lead p-top font-weight-medium">No pierdas la oportunidad de posicionar tu marca</p>
+        <a href="https://api.whatsapp.com/send?phone=50558331726&text=Hola%20Elisha.%20Estoy%20listo%20para%20posicionar%20mi%20marca."
+          class="btn btn-self-center font-weight-bold btn-dark">Contáctanos</a>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="bg-light border-top border-light">
-  <div class="container">
+  <section class="bg-light border-top border-light">
+    <div class="container">
       <div class="row no-gutters py-4">
-          <div class="col-lg-3 col-md-12 text-center border-light border-right border-bottom">
-              <small class="">
-                  <a href="https://www.instagram.com/_eulearn/" class="font-weight-boldd text-dark mr-3">
-                      <ion-icon name="logo-instagram" class="mr-3 align-center"></ion-icon> Instagram
-                  </a>
-                  <a href="" class="font-weight-boldd text-dark mr-3">
-                      <ion-icon name="logo-youtube" class="mr-3 align-center"></ion-icon> Youtube
-                  </a>
-              </small>
-          </div>
-          <div class="col-lg-3 col-md-12 text-center border-light border-right border-bottom">
-              <small class="">
+        <div class="col-lg-3 col-md-12 text-center border-light border-right border-bottom">
+          <small class="">
+            <a href="https://www.instagram.com/_eulearn/" class="font-weight-boldd text-dark mr-3">
+              <ion-icon name="logo-instagram" class="mr-3 align-center"></ion-icon> Instagram
+            </a>
+            <a href="" class="font-weight-boldd text-dark mr-3">
+              <ion-icon name="logo-youtube" class="mr-3 align-center"></ion-icon> Youtube
+            </a>
+          </small>
+        </div>
+        <div class="col-lg-3 col-md-12 text-center border-light border-right border-bottom">
+          <small class="">
 
-              </small>
-          </div>
+          </small>
+        </div>
       </div>
-  </div>
-</section>
+    </div>
+  </section>
 
-<section class="bg-light py-4">
-  <div class="container">
+  <section class="bg-light py-4">
+    <div class="container">
       <div class="w-75">
-          <h1 class="font-weight-bold mb-0">
-              Tienes una idea que deseas <br>
-              llevar a la realidad
-          </h1>
-          <p class="p-top">Queremos escuchar tu proyecto para ayudarte a generar
-              un impacto.</p>
+        <h1 class="font-weight-bold mb-0">
+          Tienes una idea que deseas <br>
+          llevar a la realidad
+        </h1>
+        <p class="p-top">Queremos escuchar tu proyecto para ayudarte a generar
+          un impacto.</p>
       </div>
-  </div>
-</section>
+    </div>
+  </section>
 
-<footer class="p-card">
-  <div class="container">
+  <footer class="p-card">
+    <div class="container">
       <div class="align-center">
-          <p class="font-weight-bold mr-4"><ion-icon name="earth-outline" class="align-middle"></ion-icon> euLearn Online 2020
-              <ion-icon name="logo-instagram" class="align-middle p-lft mr-1"></ion-icon>
-              <ion-icon name="logo-youtube" class="align-middle"></ion-icon>
-          </p>
+        <p class="font-weight-bold mr-4">
+          <ion-icon name="earth-outline" class="align-middle"></ion-icon> euLearn Online 2020
+          <ion-icon name="logo-instagram" class="align-middle p-lft mr-1"></ion-icon>
+          <ion-icon name="logo-youtube" class="align-middle"></ion-icon>
+        </p>
       </div>
-  </div>
-</footer>
+    </div>
+  </footer>
 </body>
 
 </html>
