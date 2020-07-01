@@ -70,16 +70,58 @@
     </div>
   </nav>
 
-  <section class="py-6">
-      <div class="container">
-        <div class="text-block text-center w-80 mx=auto m-4">
-          <h1 class="display-4"> Estrategistas y diseñadores de marca <br> <span class=" font-weight-bold"> dedicados a
-            ayudarte a</h1>
+  <section>
+  <div class="py-4">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active"
+          style="background-image: url('flatlay')">
+          <img src="flatlay-display-of-electronics-next-to-eyeglases-3184454.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="display-4 text-dark">Ama tu marca</h3>
+          </div>
         </div>
-       
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')">
+          <img src="four-people-using-laptop-computers-and-smartphone-3277808.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="display-4 text-dark">Marca la diferencia</h3>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('https://source.unsplash.com/O7fzqFEfLlo/1920x1080')">
+          <img src="women-at-the-meeting-3810796.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="display-4 text-dark">Conecta con tu audiencia</h3>
+          </div>
+        </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-  </section>
+    </header>
+
+    <!-- Page Content -->
+    <section class="py-5">
+      <div class="container">
+        <h1 class="font-weight-light">Estrategistas y diseñadores de marca dedicados a
+          ayudarte</h1>
+      </div>
+  </div>
+</section>
+
 
   <section class="py-4">
     <div class="container">
@@ -120,7 +162,7 @@
   <section class="bg-light py-6">
     <div class="container">
       <div class="text-center">
-        <h2 class="font-weight-thick mb-0"> Tu marca es el resultado de cómo se siente tu audiencia cuando se encuentra
+        <h2 class="font-weight-bold mb-0"> Tu marca es el resultado de cómo se siente tu audiencia cuando se encuentra
           con tu negocio</h2>
         <div class="row p-top">
           <div class="col-lg-5">
@@ -129,7 +171,7 @@
             </div>
           </div>
           <div class="col-lg-6 d-flex">
-            <div class="p-topp ml-3">
+            <div class="p-topp">
               <div class="p-topp">
                 <div class="position-bottom member-info text-dark">
                   <p>
@@ -152,10 +194,10 @@
       </div>
   </section>
 
-  <section class="bg-light py-5">
+  <section class="bg-light py-6">
     <div class="container">
       <div class="text-center">
-        <h2 class="font-weight-thick mb-0"> ¿Qué te brindamos?</h2>
+        <h2 class="font-weight-bold mb-0"> ¿Qué te brindamos?</h2>
         <div class="row p-top">
           <div class="col-lg-5">
             <div class="my-3">
@@ -163,7 +205,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="my-3 ml-3">
+            <div class="my-3">
               <div class="position-bottom member-info text-dark">
                 <h5 class="text-justify mb-0"> Estamos aquí para ayudarte a obtener esa claridad que te dará la
                   confianza
@@ -171,11 +213,13 @@
                   importantes para
                   comenzar a escalar tu negocio desde la inversión hasta la cima de 6 cifras. El material que te
                   brindamos es referente a: </h5>
-                <p class="p-top"><small class="font-weight-bold"> - Crecimiento personal </small></p>
-                <small class="font-weight-bold">- Redes sociales </small></p>
-                <small class="font-weight-bold">- Productividad en tu negocio </small></p>
-                <small class="font-weight-bold">- Estrategias de venta </small></p>
-                <small class="font-weight-bold">- Ideas y tips para tu negocio</small></p>
+                <div class="ml-3">
+                  <p class="p-top"><small class="font-weight-bold"> - Crecimiento personal </small></p>
+                  <small class="font-weight-bold">- Redes sociales </small></p>
+                  <small class="font-weight-bold">- Productividad en tu negocio </small></p>
+                  <small class="font-weight-bold">- Estrategias de venta </small></p>
+                  <small class="font-weight-bold">- Ideas y tips para tu negocio</small></p>
+                </div>
                 <a href="material.html" class="btn btn-yellow font-weight-bold"> Ver material <ion-icon
                     name="arrow-forward-outline" class="align-middle ml-2"></ion-icon></a>
               </div>
@@ -236,6 +280,15 @@
     </div>
   </section>
 
+  <section class="py-6">
+    <div class="container">
+      <h4 class="text-center"> Lea los artículos recientes de nuestro blog</h4>
+      <div class="row">
+
+      </div>
+    </div>
+  </section>
+
   <section class="bg-light border-top border-light">
     <div class="container">
       <div class="row no-gutters py-4">
@@ -275,7 +328,7 @@
     <div class="container">
       <div class="align-center">
         <p class="mr-4">
-          <ion-icon name="earth-outline" class="align-middle"></ion-icon> euLearn Online 2020
+          <ion-icon name="earth-outline" class="align-middle"></ion-icon> Copyright © 2020 euLearn. Diseñado por euLearn.
           <ion-icon name="logo-instagram" class="align-middle p-lft mr-1"></ion-icon>
           <ion-icon name="logo-youtube" class="align-middle"></ion-icon>
         </p>
