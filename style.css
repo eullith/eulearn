@@ -1,7 +1,8 @@
 :root{
     --dark: #0a0a0a;
-    --yellow: #ffea00;
+    --yellow: #ffcc00;
     --light: #ffffff;
+    --purple: #4f28ff;
 }
 
 body {
