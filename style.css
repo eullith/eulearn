@@ -18,10 +18,6 @@ body {
     font-weight: bolder;
 }
 
-.navbar {
-    height: 2rem
-}
-
 .bg-light { background-color: var(--light) !important; }
 .bg-yellow { background-color: var(--yellow) !important; }
 .bg-dark { background-color: var(--dark) !important; }
