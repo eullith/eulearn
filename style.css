@@ -5,6 +5,42 @@
     --purple: #4f28ff;
 }
 
+.blue{
+    background-color: var(--purple) !important;
+    color:#4f28ff;
+  }
+
+  a.effect-underline:after {
+	content: '';
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: var(--purple);
+  transition: width .3s;
+}
+
+#top{
+    padding-top: 6rem;
+  }
+  
+.button{
+    background-color: #4f28ff !important;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: transparent;
+    padding: 10px;
+    text-align: center;
+}
+  
+
+a.effect-underline:hover:after {
+  width: 100%;
+  transition: width .3s;
+}
+
 body {
 
     font-size: 1rem;
@@ -17,6 +53,29 @@ body {
     font-size: 1rem;
     font-weight: bolder;
 }
+
+#index{
+    top: 0;
+    background-image: url('/b_index.png');
+    background-size: cover;
+    height: 105vh;
+    background-position: center;
+    display: block;
+    margin: 0;
+    padding-bottom: 0%;
+    padding: 0;
+  }
+
+  #wave{
+    top: 0;
+    background-image: url('/wave_home.svg');
+    background-size: cover;
+    height: 35vh;
+    background-position: center;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
 
 .bg-light { background-color: var(--light) !important; }
 .bg-yellow { background-color: var(--yellow) !important; }
