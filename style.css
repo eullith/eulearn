@@ -17,8 +17,9 @@ body {
     font-size: 1rem;
     font-weight: bolder;
 }
+
 .navbar {
-    min-height: 6rem
+    height: 2rem
 }
 
 .bg-light { background-color: var(--light) !important; }
