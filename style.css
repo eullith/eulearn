@@ -14,14 +14,28 @@
 	content: '';
   display: block;
   width: 0%;
-  height: 2px;
+  height: 3px;
   background-color: var(--purple);
   transition: width .3s;
 }
 
-#top{
-    padding-top: 6rem;
+a.effect-underline:hover:after {
+    width: 100%;
+    transition: width .3s;
   }
+
+  @media only screen and (min-width: 1200px) and (min-width: 768px){
+    .top {
+       padding-top: 8rem;
+    }
+ }
+ 
+ @media only screen and (max-width: 600px) {
+    .top {
+        padding-top: 2rem;
+    }
+ }
+
   
 .button{
     background-color: #4f28ff !important;
@@ -33,12 +47,6 @@
     border: transparent;
     padding: 10px;
     text-align: center;
-}
-  
-
-a.effect-underline:hover:after {
-  width: 100%;
-  transition: width .3s;
 }
 
 body {
@@ -70,7 +78,7 @@ body {
     top: 0;
     background-image: url('/wave_home.svg');
     background-size: cover;
-    height: 35vh;
+    height: 38vh;
     background-position: center;
     display: block;
     margin: 0;
@@ -133,7 +141,7 @@ body {
     padding-bottom: 0rem;
 }
 .p-topp {
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .p-left {
