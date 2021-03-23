@@ -26,7 +26,7 @@ a.effect-underline:hover:after {
 
   @media only screen and (min-width: 1200px) and (min-width: 768px){
     .top {
-       padding-top: 8rem;
+       padding-top: 9.5rem;
     }
  }
  
@@ -36,6 +36,12 @@ a.effect-underline:hover:after {
     }
  }
 
+ .e{
+     font-size: 1000;
+     font-weight: bolder;
+     color: #4f28ff;
+     font-family: 'Montserrat', sans-serif;
+ }
   
 .button{
     background-color: #4f28ff !important;
@@ -50,16 +56,21 @@ a.effect-underline:hover:after {
 }
 
 body {
-
-    font-size: 1rem;
-    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--light);
 }
 
-.font-weight-boldd {
- 
-    font-size: 1rem;
-    font-weight: bolder;
+.hidden {
+    opacity: 0;
+  }
+
+  @keyframes fade-in {
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+}
+
+.fade-in-element {
+  animation: fade-in 1.4s;
 }
 
 #index{
@@ -153,7 +164,7 @@ body {
 }
 
 .p-btm {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 .p-bt {
