@@ -36,6 +36,10 @@ a.effect-underline:hover:after {
     }
  }
 
+ .navbar {
+    background: none;
+}
+
  .e{
      font-size: 1000;
      font-weight: bolder;
