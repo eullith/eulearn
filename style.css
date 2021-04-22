@@ -2,12 +2,12 @@
     --dark: #0a0a0a;
     --yellow: #ffcc00;
     --light: #ffffff;
-    --purple: #4f28ff;
+    --purple: #6600ff;
 }
 
 .blue{
     background-color: var(--purple) !important;
-    color:#4f28ff;
+    color:#6600ff;
   }
 
   a.effect-underline:after {
@@ -23,6 +23,17 @@ a.effect-underline:hover:after {
     width: 100%;
     transition: width .3s;
   }
+
+#blog{
+    top: 0;
+    background-image: url('./Assets/banner_blog_1-01.png');
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin: 0;
+    padding-bottom: 0%;
+    padding: 0;
+}
 
   @media only screen and (min-width: 1200px) and (min-width: 768px){
     .top {
@@ -48,7 +59,7 @@ a.effect-underline:hover:after {
  }
   
 .button{
-    background-color: #4f28ff !important;
+    background-color: #6600ff !important;
 }
 
 .card {
@@ -99,6 +110,7 @@ body {
     padding-bottom: 0%;
     padding: 0;
   }
+
 .align{
       vertical-align: bottom;
 }
@@ -261,13 +273,13 @@ body {
   
   .btn-outline-primary:active{
       background-color: #fff !important;
-      color: #4f28ff !important;
-      border-color: #4f28ff;
+      color: #6600ff !important;
+      border-color: #6600ff;
   }
 
   .btn-outline-primary:hover {
-    background-color: #4f28ff !important;
-    border-color: #4f28ff !important;
+    background-color: #6600ff !important;
+    border-color: #6600ff !important;
 }
 
 .nav-link{
@@ -279,5 +291,9 @@ body {
 }
 
 .active{
-    color: #4f28ff !important;
+    color: #6600ff !important;
 }
+
+ion-icon {
+    color: #6600ff;
+  }
