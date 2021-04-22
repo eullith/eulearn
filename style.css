@@ -22,7 +22,13 @@
 a.effect-underline:hover:after {
     width: 100%;
     transition: width .3s;
-  }
+}
+
+.minion{
+    font-family: minionpro-condensed-caption, serif;
+    font-style: normal;
+    font-weight: 500;
+}
 
 #blog{
     top: 0;
