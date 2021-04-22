@@ -1,22 +1,22 @@
-:root{
+:root {
     --dark: #0a0a0a;
     --yellow: #ffcc00;
     --light: #ffffff;
     --purple: #6600ff;
 }
 
-.blue{
+.blue {
     background-color: var(--purple) !important;
-    color:#6600ff;
-  }
+    color: #6600ff;
+}
 
-  a.effect-underline:after {
-	content: '';
-  display: block;
-  width: 0%;
-  height: 3px;
-  background-color: var(--purple);
-  transition: width .3s;
+a.effect-underline:after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    background-color: var(--purple);
+    transition: width .3s;
 }
 
 a.effect-underline:hover:after {
@@ -24,13 +24,13 @@ a.effect-underline:hover:after {
     transition: width .3s;
 }
 
-.minion{
+.minion {
     font-family: minionpro-condensed-caption, serif;
     font-style: normal;
     font-weight: 500;
 }
 
-#blog{
+#blog {
     top: 0;
     background-image: url('./Assets/banner_blog_1-01.png');
     background-size: cover;
@@ -41,41 +41,37 @@ a.effect-underline:hover:after {
     padding: 0;
 }
 
-  @media only screen and (min-width: 1200px) and (min-width: 768px){
+@media only screen and (min-width: 1200px) and (min-width: 768px) {
     .top {
-       padding-top: 8rem;
+        padding-top: 8rem;
     }
-
-    .m{
+    .m {
         text-align: left;
-    }  
-    
- }
- 
- @media only screen and (max-width: 600px) {
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .top {
         padding-top: 3rem;
     }
-
-    .m{
+    .m {
         text-align: center;
         padding-left: 5rem;
     }
+}
 
- }
-
- .navbar {
+.navbar {
     background: none;
 }
 
- .e{
-     font-size: 1000;
-     font-weight: bolder;
-     color: #6600ff;
-     font-family: 'Montserrat', sans-serif;
- }
-  
-.button{
+.e {
+    font-size: 1000;
+    font-weight: bolder;
+    color: #6600ff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button {
     background-color: #6600ff !important;
 }
 
@@ -105,18 +101,23 @@ body {
 
 .hidden {
     opacity: 0;
-  }
+}
 
-  @keyframes fade-in {
-    from {opacity: 0; transform: scale(.7,.7)}
-    to {opacity: 1;}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: scale(.7, .7)
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .fade-in-element {
-  animation: fade-in 1.4s;
+    animation: fade-in 1.4s;
 }
 
-#index{
+#index {
     top: 0;
     background-image: url('./Assets/b_index.png');
     background-size: cover;
@@ -126,26 +127,38 @@ body {
     margin: 0;
     padding-bottom: 0%;
     padding: 0;
-  }
-
-.align{
-      vertical-align: bottom;
 }
 
-.bg-light { background-color: var(--light) !important; }
-.bg-yellow { background-color: var(--yellow) !important; }
-.bg-dark { background-color: var(--dark) !important; }
+.align {
+    vertical-align: bottom;
+}
 
-.text-dark {color: var(--dark) !important;}
+.bg-light {
+    background-color: var(--light) !important;
+}
 
-.text-yellow {color: var(--yellow) !important; }
+.bg-yellow {
+    background-color: var(--yellow) !important;
+}
 
-.py-6 { 
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.text-dark {
+    color: var(--dark) !important;
+}
+
+.text-yellow {
+    color: var(--yellow) !important;
+}
+
+.py-6 {
     padding-top: 8rem;
     padding-bottom: 2rem;
 }
 
-.py-8 { 
+.py-8 {
     padding-top: 10rem;
     padding-bottom: 2rem;
 }
@@ -159,7 +172,7 @@ body {
     padding-top: 2rem;
 }
 
-.mb-3{
+.mb-3 {
     padding-bottom: 1rem;
     padding-left: .25rem;
     padding-right: .25rem;
@@ -173,8 +186,8 @@ body {
 .btn-yellow {
     background-color: var(--yellow);
 }
+
 .font-weight-thick {
-     
     font-size: 3rem;
     font-weight: bolder;
 }
@@ -188,10 +201,12 @@ body {
     padding-top: 1rem;
     padding-bottom: 0rem;
 }
+
 .p-none {
     padding-top: 0rem;
     padding-bottom: 0rem;
 }
+
 .p-topp {
     padding-top: 4rem;
 }
@@ -219,52 +234,54 @@ body {
 .p-bt {
     padding-bottom: 2rem;
 }
+
 .p-modalb {
     padding-bottom: 2rem;
 }
+
 .p-card {
     padding-left: 0rem;
 }
 
 .right-to-left li {
     float: right !important;
-  }
+}
 
-  .p-leftt {
-      padding-left: 8rem;
-  }
+.p-leftt {
+    padding-left: 8rem;
+}
 
- .card-l {
-     border: none;
- }
+.card-l {
+    border: none;
+}
 
- .p-close {
-     padding-top: 1rem;
-     padding-right: 1rem;
- }
+.p-close {
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
 
- .p-modal {
-     padding-left: 3rem;
-     padding-right: 3rem;
- }
+.p-modal {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 
- .contact-us {
-     padding-top: 7rem;
-     padding-bottom: 7rem;
- }
+.contact-us {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
 
- .p-lft {
-     padding-left: 1rem;
- }
+.p-lft {
+    padding-left: 1rem;
+}
 
- .p-right
- {
-     padding-left: 1rem;
- }
+.p-right {
+    padding-left: 1rem;
+}
 
- .p-r {
-     padding-right: 1rem;
- }
+.p-r {
+    padding-right: 1rem;
+}
+
 .video {
     position: absolute;
     top: 0;
@@ -273,49 +290,85 @@ body {
     height: 100%;
 }
 
+
 /* width */
+
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
-  
-  .btn-outline-primary:active{
-      background-color: #fff !important;
-      color: #6600ff !important;
-      border-color: #6600ff;
-  }
+}
 
-  .btn-outline-primary:hover {
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.btn-outline-primary:active {
+    background-color: #fff !important;
+    color: #6600ff !important;
+    border-color: #6600ff;
+}
+
+.btn-outline-primary:hover {
     background-color: #6600ff !important;
     border-color: #6600ff !important;
 }
 
-.nav-link{
+.nav-link {
     color: black;
 }
 
-.btn-sm{
+.btn-sm {
     color: black;
 }
 
-.active{
+.active {
     color: #6600ff !important;
 }
 
 ion-icon {
     color: #6600ff;
-  }
+}
+
+
+/*hover play button*/
+
+.itemsContainer {
+    background: white;
+    float: left;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+}
+
+.itemsContainer:hover .play {
+    display: block;
+}
+
+.play {
+    position: absolute;
+    display: none;
+    top: 40%;
+    width: 40px;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    opacity: 0.9;
+}
