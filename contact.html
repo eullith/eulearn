@@ -49,7 +49,7 @@
 
         <div class="container-sm">
             <nav class="nav nav-masthead justify-content-center">
-                <a class="nav-link effect-underline active" href="#">Inicio
+                <a class="nav-link effect-underline active" href="index.html">Inicio
                     <span class="sr-only">(current)</span></a>
                 <a class="nav-link effect-underline" href="servicios.html">Servicios</a>
                 <a class="nav-link effect-underline" href="recursos.html">Recursos</a>
@@ -90,55 +90,28 @@
                         <h1 class="">
                             Contáctanos
                         </h1>
-                        <form class="needs-validation" validate>
-                            <label for="firstName">First name</label>
-                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
-                            <div class="invalid-feedback">
-                                Valid first name is required.
+                        <form action="contact.php" method="POST" enctype="multipart/form-data" class="needs-validation" validate>
+                            <label for="name">Nombre</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="" name="name" required>
+                            <div class=" ml-0 ">
+                                <label for="email ">Email</label>
+                                <input type="email " class="form-control " id="email " placeholder="you@example.com " name="email " required>
                             </div>
-
-                            <label for="lastName">Last name</label>
-                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-                            <div class="invalid-feedback">
-                                Valid last name is required.
-                            </div>
-
-                            <div class="ml-0">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="you@example.com">
-                                <div class="invalid-feedback">
-                                    Please enter a valid email address for shipping updates.
-                                </div>
-                            </div>
-
-                            <label for="country">Country</label>
-                            <select class="custom-select d-block w-100" id="country" required>
-                                <option value="">Choose...</option>
-                                <option>United States</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please select a valid country.
-                            </div>
-
-                            <label for="state">State</label>
-                            <select class="custom-select d-block w-100" id="state" required>
-                                <option value="">Choose...</option>
-                                <option>California</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please provide a valid state.
-                            </div>
+                            <label for="message ">Asunto</label>
+                            <input type="textarea " class="form-control " id="message" name="message" required>
+                            <label for="message ">Mensaje</label>
+                            <input type="textarea " class="form-control " id="message" name="message" required>
                         </form>
-                        <div class="py-4">
-                            <button class="btn button btn-primary btn-lg btn-block" type="submit">Submit</button>
+                        <div class=" py-4 ">
+                            <button class="btn button btn-primary btn-lg btn-block " type="submit ">Submit</button>
                         </div>
                     </div>
                 </div>
-                <div class="card my-auto" style="max-width: 30rem; margin-right: 0%;">
-                    <div class="card-body text-center">
-                        <img src="./Assets/pin.svg" class="card-img-top p-btm" alt="..." style="max-width: 8rem;">
+                <div class="card my-auto " style="max-width: 30rem; margin-right: 0%; ">
+                    <div class="card-body text-center ">
+                        <img src="./Assets/pin.svg " class="card-img-top p-btm " alt="... " style="max-width: 8rem; ">
                         <h4>
-                            Managua, Nicargua<br> e: <a href="mailto:eulearn.site@gmail.com">eulearn.site@gmail.com</a><br> t: +505 86316922
+                            Managua, Nicargua<br> e: <a href="mailto:eulearn.site@gmail.com ">eulearn.site@gmail.com</a><br> t: +505 86316922
                         </h4>
                     </div>
                 </div>
@@ -148,19 +121,19 @@
 
     <hr>
 
-    <footer class="py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-8">
-                    <img src="./Assets/logo-wide.png" width="150" height="40" class="p">
+    <footer class="py-4 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-8 ">
+                    <img src="./Assets/logo-wide.png " width="150 " height="40 " class="p ">
                 </div>
-                <div class="col-4">
-                    <ion-icon size="large" name="logo-instagram" class="p-r"></ion-icon>
-                    <ion-icon size="large" name="logo-youtube" class="p-r"></ion-icon>
+                <div class="col-4 ">
+                    <ion-icon size="large " name="logo-instagram " class="p-r "></ion-icon>
+                    <ion-icon size="large " name="logo-youtube " class="p-r "></ion-icon>
                 </div>
             </div>
-            <div class="container navbar-padding">
-                <p class="m-0 py-4 text-blue"> © 2020-2021 euLearn <br>Todos los derechos reservados</br>
+            <div class="container navbar-padding ">
+                <p class="m-0 py-4 text-blue "> © 2020-2021 euLearn <br>Todos los derechos reservados</br>
                 </p>
             </div>
         </div>
@@ -168,12 +141,12 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns " crossorigin="anonymous "></script>
+    <script src="vendor/jquery/jquery.min.js "></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js "></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
     <script>
         AOS.init();
     </script>

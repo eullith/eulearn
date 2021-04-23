@@ -14,7 +14,8 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/pricing.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <!--Font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -30,7 +31,7 @@
 
 </head>
 
-<header id="index">
+<header>
     <div class="container">
         <header class="blog-header py-3">
             <div class="row flex-nowrap justify-content-between align-items-center">
@@ -50,7 +51,7 @@
         <div class="container-sm">
             <nav class="nav nav-masthead justify-content-center">
                 <a class="nav-link effect-underline active" href="#">Inicio
-          <span class="sr-only">(current)</span></a>
+                    <span class="sr-only">(current)</span></a>
                 <a class="nav-link effect-underline" href="servicios.html">Servicios</a>
                 <a class="nav-link effect-underline" href="recursos.html">Recursos</a>
                 <a class="nav-link effect-underline" href="portafolio.html">Portafolio</a>
@@ -61,10 +62,12 @@
         </div>
     </div>
 
-    <div class="container center c-pad">
-        <h1 class="display-5 top p-btm minion"> Transforma tu experiencia de aprendizaje </h1>
-        <a class="btn btn-primary mx-auto btn-lg button" href="Word Adventure - Storyline output/story.html" role="button">
-      Test 2</a>
+    <div class="container py-8">
+        <div class="text-center">
+            <h1 class="display-4 minion">Transforma tu experiencia de aprendizaje</h1>
+            <p class="lead p-top">No importa el tamaño de tu proyecto, lo adaptamos a sus necesidades</p>
+            <a class="btn btn-primary btn-lg button" href="#" role="button">Empieza ya!</a>
+        </div>
     </div>
 
 
@@ -75,10 +78,13 @@
     <div class="container p-topp">
         <div class="row">
             <div class="col-sm">
-                <img src="./Assets/Telecommuting-cuate.svg" class="card-img-top" data-aos="fade-right" data-aos-duration="1000" style="max-width: 30rem;" alt="...">
+                <img src="./Assets/Telecommuting-cuate.svg" class="card-img-top" data-aos="fade-right"
+                    data-aos-duration="1000" style="max-width: 30rem;" alt="...">
             </div>
             <div class="col-sm my-auto">
-                <h4 class="minion text-justify">Crea cursos e-learning interactivos de forma sencilla. Con Articulate, siéntete como un profesional aún cuando seas un principiante. Con el respaldo de nuestro equipo de trabajo podrás aprender a realizar todo lo que imagines para tus
+                <h4 class="minion text-justify">Crea cursos e-learning interactivos de forma sencilla. Con Articulate,
+                    siéntete como un profesional aún cuando seas un principiante. Con el respaldo de nuestro equipo de
+                    trabajo podrás aprender a realizar todo lo que imagines para tus
                     cursos.
                 </h4>
             </div>
@@ -89,44 +95,134 @@
     <div class="container p-topp">
         <div class="row">
             <div class="col-sm my-auto mr-6">
-                <h4 class="minion text-justify">Adquiere cursos online a la medida acorde a tu presupuesto, tiempo o nivel de interactividad. Excelente elección cuando careces de un equipo de trabajo o requieres consultoría para el desarrollo de tus cursos.
+                <h4 class="minion text-justify">Adquiere cursos online a la medida acorde a tu presupuesto, tiempo o
+                    nivel de interactividad. Excelente elección cuando careces de un equipo de trabajo o requieres
+                    consultoría para el desarrollo de tus cursos.
                 </h4>
             </div>
             <div class="col-sm">
-                <img src="./Assets/Website setup-cuate.svg" class="card-img-top" data-aos="fade-left" data-aos-duration="1000" alt="..." style="max-width: 30rem;">
+                <img src="./Assets/Website setup-cuate.svg" class="card-img-top" data-aos="fade-left"
+                    data-aos-duration="1000" alt="..." style="max-width: 30rem;">
             </div>
         </div>
+    </div>
 </section>
 
-<div>
+<section>
+    <div class="container py-4">
+        <div class="card-deck" data-aos="fade-up" data-aos-duration="1000">
+            <div class="card p-top" style="margin-right: 0%;">
+                <div class="col-md order-md-1">
+                    <h1 class="">
+                        Contáctanos
+                    </h1>
+                    <form class="needs-validation" validate>
+                        <label for="firstName">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
 
-</div>
+                        <label for="lastName">Last name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                        </div>
+
+                        <div class="ml-0">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                            <div class="invalid-feedback">
+                                Please enter a valid email address for shipping updates.
+                            </div>
+                        </div>
+
+                        <label for="country">Country</label>
+                        <select class="custom-select d-block w-100" id="country" required>
+                            <option value="">Choose...</option>
+                            <option>United States</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid country.
+                        </div>
+
+                        <label for="state">State</label>
+                        <select class="custom-select d-block w-100" id="state" required>
+                            <option value="">Choose...</option>
+                            <option>California</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        </div>
+                    </form>
+                    <div class="py-4">
+                        <button class="btn button btn-primary btn-lg btn-block" type="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card my-auto" style="max-width: 30rem; margin-right: 0%;">
+                <div class="card-body text-center">
+                    <img src="./Assets/pin.svg" class="card-img-top p-btm" alt="..." style="max-width: 8rem;">
+                    <h4>
+                        Managua, Nicargua<br> e: <a href="mailto:eulearn.site@gmail.com">eulearn.site@gmail.com</a><br>
+                        t: +505 86316922
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <hr>
 
-<footer class="py-4">
-    <div class="container">
-        <div class="row">
-            <div class="col-8">
-                <img src="./Assets/logo-wide.png" width="150" height="40" class="p">
+<footer class="blue">
+    <div class="bg-light">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-8">
+                    <img src="./Assets/logo-wide.png" width="150" height="40" class="p">
+                </div>
+                <div class="col-4">
+                    <ion-icon size="large" name="logo-instagram" class="p-r"></ion-icon>
+                    <ion-icon size="large" name="logo-youtube" class="p-r"></ion-icon>
+                </div>
             </div>
-            <div class="col-4">
-                <ion-icon size="large" name="logo-instagram" class="p-r"></ion-icon>
-                <ion-icon size="large" name="logo-youtube" class="p-r"></ion-icon>
+            <div class="container navbar-padding">
+                <p class="m-0 py-4 text-blue"> © 2020-2021 euLearn <br>Todos los derechos reservados</br>
+                </p>
             </div>
-        </div>
-        <div class="container navbar-padding">
-            <p class="m-0 py-4 text-blue"> © 2020-2021 euLearn <br>Todos los derechos reservados</br>
-            </p>
         </div>
     </div>
-    <!-- /.container -->
+    <div class="blue">
+        <div>
+            <div class="container text-white py-5">
+                <div class="row">
+                    <div class="col-sm">
+                        Managua, Nicargua<br> e: eulearn.site@gmail.com</a><br> t:
+                        +505 86316922
+                    </div>
+                    <div class="col-sm">
+                        Managua, Nicargua<br> e: eulearn.site@gmail.com</a><br> t:
+                        +505 86316922
+                    </div>
+                    <div class="col-sm">
+                        Managua, Nicargua<br> e: eulearn.site@gmail.com</a><br> t:
+                        +505 86316922
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
