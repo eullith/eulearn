@@ -24,6 +24,20 @@ a.effect-underline:hover:after {
     transition: width .3s;
 }
 
+.effect-underline:after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    background-color: var(--purple);
+    transition: width .3s;
+}
+
+.effect-underline:hover:after {
+    width: 100%;
+    transition: width .3s;
+}
+
 .minion {
     font-family: minionpro-condensed-caption, serif;
     font-style: normal;
