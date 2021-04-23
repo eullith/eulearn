@@ -82,7 +82,7 @@ a.effect-underline:hover:after {
 }
 
 .card {
-    border-color: transparent !important;
+    border-color: transparent ;
 }
 
 .card-img-top {
@@ -121,6 +121,11 @@ body {
 
 .fade-in-element {
     animation: fade-in 1.4s;
+}
+
+.b{
+    border-style: solid !important;
+    border-color: #6600ff !important;
 }
 
 #index {
