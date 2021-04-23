@@ -30,6 +30,12 @@ a.effect-underline:hover:after {
     font-weight: 500;
 }
 
+.mbold{
+    font-family: minion-pro, serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
 #blog {
     top: 0;
     background-image: url('./Assets/banner_blog_1-01.png');
