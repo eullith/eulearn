@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_5ZTrrVOAp4I_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">Maze Game</langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="Maze_Game_ORG">
+    <organization identifier="Maze_Game_ORG">
+      <title>Maze Game</title>
+      <item identifier="Maze_Game_SCO" isvisible="true" identifierref="__5ZTrrVOAp4I_course_id_RES">
+        <title>Maze Game</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__5ZTrrVOAp4I_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="mobile/61FUOrnTNBM_80_DX1440_DY1440_CX1509_CY849.png" />
+      <file href="mobile/6F4rKhkhUxL_80_DX1062_DY1062_CX1112_CY329.png" />
+      <file href="story_content/6I2XnZGfboC_44100_48_0.mp3" />
+      <file href="mobile/61FUOrnTNBM_80_C-30_DX1440_DY1440_CX1509_CY849.png" />
+      <file href="mobile/5wa8VOYqlJ2_80_DX610_DY610_CX640_CY360.png" />
+      <file href="mobile/6jjr9ffLslz_80_DX614_DY614_CX639_CY360.png" />
+      <file href="mobile/5w0aVYNqRQw_80_DX616_DY616_CX646_CY363.png" />
+      <file href="mobile/65KgzXU0yp1_80_P_0_-25_2048_1166_DX610_DY610_CX640_CY364.png" />
+      <file href="mobile/5WPjo5aDagE_80_DX1440_DY1440_CX1509_CY849.png" />
+      <file href="mobile/5oLJO80PYh3_80_DX282_DY282_CX174_CY235.png" />
+      <file href="mobile/5oLJO80PYh3_80_DX282_DY282_CX62_CY84.png" />
+      <file href="mobile/5iFWoIKTQZ6_80_DX276_DY276_CX289_CY223.png" />
+      <file href="story_content/6YvjCIs5gI0_44100_48_0.mp3" />
+      <file href="mobile/5VsaTI9gLHr_80_DX284_DY284_CX296_CY228.png" />
+      <file href="story_content/67ucPIgkHYb_44100_48_0.mp3" />
+      <file href="mobile/5euzHadQGM5_80_P_0_0_2048_656_DX1440_DY1440_CX1511_CY484.png" />
+      <file href="mobile/5oLJO80PYh3_80_DX282_DY282_CX218_CY294.png" />
+      <file href="mobile/659oapQV2Mv_80_DX1440_DY1440_CX1508_CY849.png" />
+      <file href="mobile/6M8QFGizNqv_80_DX336_DY336_CX243_CY352.png" />
+      <file href="mobile/6M8QFGizNqv_80_DX336_DY336_CX100_CY145.png" />
+      <file href="mobile/6M8QFGizNqv_80_DX336_DY336_CX195_CY283.png" />
+      <file href="mobile/5XBX3Mn7pk3_80_DX1440_DY1440_CX1509_CY849.png" />
+      <file href="mobile/6UXckblPgkP_80_DX302_DY302_CX258_CY316.png" />
+      <file href="mobile/6UXckblPgkP_80_DX302_DY302_CX73_CY89.png" />
+      <file href="mobile/6UXckblPgkP_80_DX302_DY302_CX222_CY272.png" />
+      <file href="mobile/6nHd4Wnqv92_80_P_14_9_2018_1135_DX1460_DY1460_CX1510_CY849.png" />
+      <file href="mobile/5YILVNlq26x_80_DX340_DY340_CX255_CY356.png" />
+      <file href="mobile/5YILVNlq26x_80_DX340_DY340_CX107_CY149.png" />
+      <file href="mobile/5YILVNlq26x_80_DX340_DY340_CX209_CY292.png" />
+      <file href="meta.xml" />
+      <file href="story_content/user.js" />
+      <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/5jDmVM6CTfH.js" />
+      <file href="html5/data/js/5l3iHP6pDCH.js" />
+      <file href="html5/data/js/5qu3TbTtd6f.js" />
+      <file href="html5/data/js/6QpEY8Tw0Es.js" />
+      <file href="html5/data/js/6rjRJlfePKU.js" />
+      <file href="html5/data/js/6V1t80HvCdL.js" />
+      <file href="html5/data/js/data.js" />
+      <file href="html5/data/js/frame.js" />
+      <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/scripts/bootstrapper.min.js" />
+      <file href="html5/lib/scripts/frame.desktop.min.js" />
+      <file href="html5/lib/scripts/frame.mobile.min.js" />
+      <file href="html5/lib/scripts/slides.min.js" />
+      <file href="html5/lib/stylesheets/desktop.min.css" />
+      <file href="html5/lib/stylesheets/mobile.min.css" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+      <file href="analytics-frame.html" />
+      <file href="story.html" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/scormdriver.js" />
+    </resource>
+  </resources>
+</manifest>
